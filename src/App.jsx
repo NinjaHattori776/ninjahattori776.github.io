@@ -7,7 +7,6 @@ const GITHUB = "https://github.com/NinjaHattori776";
 const PROJECTS = [
   // Cybersecurity
   { name: "azure-honeypot-siem", cat: "cybersecurity", desc: "Azure T-Pot honeypot + Terraform IaC + Kibana SIEM dashboard — captures live attacks in real time", tech: ["Azure", "Terraform", "Kibana", "HCL"], url: `${GITHUB}/azure-honeypot-siem`, featured: true },
-  { name: "retail-cybersecurity-toolkit", cat: "cybersecurity", desc: "Flask cybersecurity training app + automated firewall script for retail environments", tech: ["Python", "Flask", "Bash"], url: `${GITHUB}/retail-cybersecurity-toolkit`, featured: true },
 
   // Java / OOP
   { name: "hospital-management-system", cat: "java", desc: "Full Java HMS — 7 UML diagrams, 15 classes, clinical/lab/pharmaceutical/financial modules, MySQL schema", tech: ["Java", "MySQL", "UML"], url: `${GITHUB}/hospital-management-system`, featured: true },
