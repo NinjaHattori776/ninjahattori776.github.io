@@ -103,12 +103,12 @@ const FREELANCE = [
   {
     platform: "Fiverr",
     handle: "@hashirtariq",
-    badge: "Level 1 Seller",
+    badge: "Level 2 Seller",
     desc: "100+ completed projects — UML diagrams, full-stack web apps, Visual Paradigm, wireframes, database design, React.js, and more.",
     url: "https://www.fiverr.com/s/pdELdVR",
     color: "#1dbf73",
     icon: "F",
-    stats: ["100+ Projects", "Level 1 Seller", "5★ Rated"],
+    stats: ["100+ Projects", "Level 2 Seller", "5★ Rated"],
   },
   {
     platform: "Upwork",
