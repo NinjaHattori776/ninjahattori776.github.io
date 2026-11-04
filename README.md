@@ -13,7 +13,7 @@ Personal portfolio website built with React + Vite, hosted on GitHub Pages.
 ## Sections
 - **Hero** — animated matrix rain + typing effect
 - **About** — bio, education, work experience
-- **Projects** — 22+ projects with category filter
+- **Projects** — 39 projects with category filter
 - **Skills & Certifications** — full tech stack + certs + awards
 - **Contact** — links to email, LinkedIn, GitHub, Medium
 
