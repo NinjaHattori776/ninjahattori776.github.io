@@ -25,7 +25,9 @@ const PROJECTS = [
   { name: "ks-esslingen-website", cat: "web", desc: "9-page Bootstrap 5 site for a German construction company — responsive, multilingual-ready", tech: ["HTML", "Bootstrap 5", "CSS"], url: `${GITHUB}/ks-esslingen-website` },
   { name: "car-rental-website", cat: "web", desc: "Responsive Bootstrap car rental landing page with booking UI", tech: ["HTML", "Bootstrap", "CSS"], url: `${GITHUB}/car-rental-website` },
   { name: "course-hero-clone", cat: "web", desc: "Multi-page HTML/CSS frontend clone of Course Hero", tech: ["HTML", "CSS", "Bootstrap"], url: `${GITHUB}/course-hero-clone` },
-  { name: "it-services-proposal", cat: "web", desc: "Word FILLIN auto-fill template — 20 input fields for IT services proposals", tech: ["MS Word", "Automation"], url: `${GITHUB}/it-services-proposal` },
+  { name: "it-services-proposal", cat: "web", desc: "Word FILLIN auto-fill template — 20 input fields for IT services proposals", tech: ["MS Word", "Automation"], url: `${GITHUB}/it-services-proposal-` },
+  { name: "hashedu-school-management-system", cat: "web", desc: "Multi-portal school management system — Laravel API + React SPA with five role-based portals (Super Admin, Admin, Teacher, Student, Parent), attendance, exams, report cards, fees and analytics", tech: ["Laravel", "React", "MySQL", "Sanctum", "Tailwind", "Docker"], url: `${GITHUB}/hashedu-school-management-system`, featured: true },
+  { name: "crypto-ai-dashboard", cat: "web", desc: "Angular 11 dashboard for AI-powered crypto sentiment (BTC, ETH, ADA) — JWT auth with route guards, ApexCharts and a live news feed", tech: ["Angular", "TypeScript", "JWT", "ApexCharts"], url: `${GITHUB}/crypto-ai-dashboard` },
 
   // Database
   { name: "school-management-system", cat: "database", desc: "Full school SaaS MySQL schema — 240+ tables covering timetables, attendance, finance, and exams", tech: ["MySQL", "ERD"], url: `${GITHUB}/school-management-system`, featured: true },
@@ -39,9 +41,20 @@ const PROJECTS = [
   { name: "hazardous-transport-system", cat: "uml", desc: "11 UML diagrams for a French hazardous materials logistics system (TMD compliance)", tech: ["UML", "Systems Design"], url: `${GITHUB}/hazardous-transport-system` },
   { name: "event-management-system", cat: "uml", desc: "UML with Composite pattern, MVP architecture, and Jacobson stereotypes", tech: ["UML", "Design Patterns"], url: `${GITHUB}/event-management-system` },
   { name: "smart-fridge-system", cat: "uml", desc: "IoT UML — SmartFridgeX with barcode inventory tracking and automated shopping list generation", tech: ["UML", "IoT Design"], url: `${GITHUB}/smart-fridge-system` },
-  { name: "cinema-management-system", cat: "uml", desc: "UML — 4 diagrams as SVGs for a full cinema management system", tech: ["UML", "SVG"], url: `${GITHUB}/cinema-management-system` },
+  { name: "cinema-management-system", cat: "uml", desc: "UML — 4 diagrams as SVGs for a full cinema management system", tech: ["UML", "SVG"], url: `${GITHUB}/cinema-management-uml` },
   { name: "grocery-recipe-platform", cat: "uml", desc: "UML Class Diagram — online grocery and recipe app architecture", tech: ["UML", "Class Diagram"], url: `${GITHUB}/grocery-recipe-platform` },
   { name: "tutoring-platform", cat: "uml", desc: "UML — session booking, progress tracking, and payment system design", tech: ["UML", "Systems Design"], url: `${GITHUB}/tutoring-platform` },
+  { name: "civora", cat: "uml", desc: "AI-assisted structural engineering platform concept — requirements, architecture, UML/ER models and UI wireframes (design phase, no application code yet)", tech: ["UML", "ER Modelling", "Visual Paradigm", "Balsamiq"], url: `${GITHUB}/civora` },
+  { name: "software-system-designs", cat: "uml", desc: "Four OOSE system designs — medical clinic, soccer league scheduling, invoice management and Eagle Radio — with full UML suites", tech: ["UML", "Visual Paradigm", "Balsamiq"], url: `${GITHUB}/software-system-designs` },
+  { name: "gof-design-patterns", cat: "uml", desc: "Gang of Four reference — 11 design patterns with UML class/sequence diagrams and runnable Java implementations", tech: ["Java", "UML", "Design Patterns"], url: `${GITHUB}/gof-design-patterns` },
+  { name: "food-delivery-app", cat: "uml", desc: "Food delivery platform design — 17 diagrams across 8 UML diagram types, from use cases to deployment topology", tech: ["UML", "Visual Paradigm"], url: `${GITHUB}/food-delivery-app` },
+  { name: "amazon-ecommerce-uml", cat: "uml", desc: "UML model of Amazon's signup and ordering flows — class and sequence diagrams with user stories", tech: ["UML", "Visual Paradigm"], url: `${GITHUB}/amazon-ecommerce-uml` },
+  { name: "bicycle-app", cat: "uml", desc: "Cyclist companion app — stakeholder analysis, use cases, class and activity design, plus Balsamiq wireframes", tech: ["UML", "Balsamiq", "Use Cases"], url: `${GITHUB}/bicycle-app` },
+  { name: "business-management-system", cat: "uml", desc: "Small-business management design — money/HST tracking and inventory/purchasing modules with class and sequence diagrams", tech: ["UML", "Visual Paradigm", "SVG"], url: `${GITHUB}/business-management-system` },
+  { name: "crypto-trader-bot", cat: "uml", desc: "Automated crypto trading bot design — multi-bot management, strategy execution and WebSocket market data", tech: ["UML", "Systems Design"], url: `${GITHUB}/crypto-trader-bot` },
+  { name: "user-registration-system", cat: "uml", desc: "UML sequence diagrams for user registration, forgotten-password and role-based profile flows", tech: ["UML", "Sequence Diagrams"], url: `${GITHUB}/user-registration-system` },
+  { name: "weather-app", cat: "uml", desc: "Three-layer weather app design — component, class and sequence diagrams with Figma UI mockups", tech: ["UML", "Figma", "Java"], url: `${GITHUB}/weather-app` },
+  { name: "school-inventory-pro", cat: "uml", desc: "13-screen UI/UX mockups for a school equipment inventory system with admin and user roles, plus sitemap", tech: ["UI/UX", "Mockups", "Sitemap"], url: `${GITHUB}/school-inventory-pro` },
 ];
 
 const CATS = [
@@ -51,7 +64,7 @@ const CATS = [
   { key: "python", label: "🐍 Python / ML" },
   { key: "web", label: "🌐 Web Dev" },
   { key: "database", label: "🗄️ Database" },
-  { key: "uml", label: "🏗️ Architecture" },
+  { key: "uml", label: "🏗️ Architecture & Design" },
 ];
 
 const SKILLS = {
